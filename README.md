@@ -35,4 +35,4 @@ In the 'output_a_star.PNG' image and 'a_star_path_finding' video file, inputs ar
 
 ## Team Members
 - Fazil Mammadli (mammadli@umd.edu) 120227561
-- Hoang Pham 
+- Hoang Pham (hmp61595) 120230301
