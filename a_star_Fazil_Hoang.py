@@ -1,10 +1,10 @@
+# https://github.com/FazilMammadli/ENPM-661--Project-3/tree/main
+
 from queue import PriorityQueue
 import time
-
 import numpy as np
 import cv2
-
-from google.colab.patches import cv2_imshow
+# from google.colab.patches import cv2_imshow --> Uncomment this If you are using Google Colab
 
 class PriorityNodeQueue:
     def __init__(self):
@@ -163,7 +163,7 @@ def visualize_obstacles(canvas, obstacle_shapes, video_writer):
             cv2.fillPoly(canvas, [polygon_points], color=(255, 255, 255))
 
     # Display the updated canvas and write to the video
-    cv2_imshow(canvas)
+    # cv2_imshow(canvas)
     video_writer.write(canvas)
     cv2.waitKey(2000)  # Delay to allow visualization to be seen
 
@@ -207,7 +207,7 @@ def visualize_optimal_path(canvas, optimal_path, movement_step, video_writer):
 
     # Save the final visualization
     video_writer.write(canvas)
-    cv2_imshow(canvas)
+    # cv2_imshow(canvas)
     cv2.waitKey(1000)  # Wait a bit to show the last frame
 
 
