@@ -1,4 +1,4 @@
-# ENPM-661-Project-3
+# ENPM-661-Project 3
 ## A* Pathfinding for a Mobile Robot
 This repository contains the implementation of the A* pathfinding algorithm designed for a mobile robot navigating a specified area with obstacles.
 
