@@ -27,6 +27,12 @@ Enter the required inputs when prompted:
 ## Visualization
 Upon successful execution, the algorithm outputs an animation showing the node exploration and the optimal path from the start to the goal point. The visualization starts only after the exploration is complete and the optimal path is found.
 
+## Output of given inputs
+In the 'output_a_star.PNG' image and 'a_star_path_finding' video file, inputs are:
+- (21,23,30) for start point
+- (1100,21,60) for goal point
+- Clearance and Step size are 5
+
 ## Team Members
 - Fazil Mammadli (mammadli@umd.edu) 120227561
 - Hoang Pham 
